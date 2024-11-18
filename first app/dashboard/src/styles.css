@@ -1,0 +1,131 @@
+/* You can add global styles to this file, and also import other style file*/
+@font-face {
+    font-family: Poppins;
+    src: url("../public/fonts/Poppins-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: red;
+    display: flex;
+}
+
+/* left */
+app-left {
+    background-color: #274054;
+    width: 20%;
+    height: 100vh;
+}
+
+app-left ul {
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 7vh;
+    color: white;
+    font-family: Poppins;
+}
+
+hr {
+    color: #ddd;
+    /* height: 0.1px; */
+    outline: none;
+    opacity: 0.6;
+}
+
+app-right {
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+app-heading {
+    height: 7vh;
+    display: block;
+    background-color: #CCCCCE;
+}
+
+.div_container {
+    margin-top: 15px;
+}
+
+.div1,
+.div2,
+.div3 {
+    height: 5px;
+    width: 4%;
+    background-color: #908E91;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
+app-boding {
+    height: 86vh;
+    /* background-color: darkcyan; */
+}
+
+.dash_div {
+    /* background-color: red; */
+    width: 90%;
+    margin-left: 5%;
+    height: 60vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.d_div {
+    width: 32%;
+    height: 200px;
+    /* background-color: aqua; */
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-family: Poppins;
+}
+
+.d_div p {
+    margin-top: 50px;
+}
+
+.d_div1 {
+    background-color: #341EDB;
+}
+
+.d_div2 {
+    background-color: #E75256;
+}
+
+.d_div3 {
+    background-color: #30B65D;
+}
+
+.d_div4 {
+    background-color: #F9B016;
+}
+
+.d_div5 {
+    background-color: #3399FE;
+}
+
+.d_div6 {
+    background-color: #5169A5;
+}
+
+app-footing {
+    background-color: #CCCCCE;
+    height: 7vh;
+    text-transform: uppercase;
+    line-height: 7vh;
+    text-align: center;
+}
